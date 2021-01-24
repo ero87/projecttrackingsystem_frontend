@@ -1,0 +1,272 @@
+/*.App {*/
+/*  text-align: center;*/
+/*}*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.parent {
+    background-color: #4053f5;
+    min-height: 100vh;
+    color: white;
+    display: flex;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.projects-list {
+    margin-left: 1%;
+}
+
+.content {
+    background: #ffffff;
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    right: 2%;
+    bottom: 4%;
+    color: black;
+}
+
+.add-button {
+    position: absolute;
+    background: #089b08;
+    color: white;
+    padding: 7px 15px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    bottom: 0;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.table-container {
+    max-width: 100%;
+    width: 90%;
+    margin: 40px auto 40px;
+    max-height: 350px;
+    overflow-y: scroll;
+}
+
+.table-container__title {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.table-container__title h2 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.table-container__table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container__table thead tr {
+    background-color: transparent;
+}
+
+.table-container__table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.table-container__table th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.table-container__table tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.title_text {
+    margin-left: 1%;
+}
+
+.required {
+    position: absolute;
+    right: 2%;
+    color: red;
+    top: 3%;
+}
+
+.blackLine {
+    height: 7px;
+    background-color: black;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: -12px;
+}
+
+.field_title {
+    background-color: #6d6565;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    height: 30px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.field_number {
+    background-color: red;
+    text-align: center;
+    margin-top: 2px;
+    margin-left: 2px;
+    color: white;
+    padding: 2px;
+}
+
+.second_text {
+    align-items: stretch;
+    margin-top: 3px;
+    padding: 2px;
+    color: white;
+    margin-left: 2px;
+}
+
+.third_text {
+    color: red;
+    margin-left: 3px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+.project_name {
+    width: 98%;
+    margin-top: 10px;
+    margin-left: 1%;
+    margin-right: 30%;
+}
+
+.status_select {
+    margin-top: 10px;
+    margin-left: 1%;
+}
+
+.third_text_1_3 {
+    color: white;
+    margin-left: 3px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 9px;
+}
+
+.red {
+    color: red;
+}
+
+.contacts_table {
+    width: 98%;
+    border-collapse: collapse;
+    margin-left: 1%;
+    margin-top: 10px;
+}
+
+.contacts_table thead tr {
+    background-color: transparent;
+}
+
+.contacts_table th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.contacts_table td {
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.content_edit {
+    background: #ffffff;
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    right: 2%;
+    bottom: 7%;
+    color: black;
+}
+
+.add_contact_btn {
+    position: absolute;
+    background: #089b08;
+    color: white;
+    padding: 7px 15px;
+    left: 1%;
+    margin-bottom: 20px;
+    bottom: 0;
+}
+
+.save_and_cancel {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 7%;
+    margin-bottom: 1%;
+}
+
+.cancel {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+
+.edit_table-container {
+    max-width: 100%;
+    max-height: 185px;
+    overflow-y: scroll;
+}
+
+.error_input {
+    color: red;
+}
+
+#projectNameId::placeholder {
+    color: #ff0000;
+    opacity: 1;
+}
+
+#contactFullNameId::placeholder {
+    color: #ff0000;
+    opacity: 1;
+}
